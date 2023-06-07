@@ -1,0 +1,213 @@
+doctype <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> bienvenidos al lado oscuro</title>
+
+</head>
+<hr>
+
+<body> 
+    <!-- solo es h1 por pagina   ---> 
+
+    <h1>Soy un h1 y soy el titulo mas importante de la pagina</h1>
+    <h2>Esto es H2</h2>
+    <h3>Esto es H3</h3>
+    <h4>Esto es H4</h4>
+    <h5>Esto es H5</h5>
+    <h6>Esto es H6</h6>
+
+    <p>soy una etiqueta p dentro mio vas a colocar parrafos</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius necessitatibus ut molestias consectetur. Labore deleniti voluptas quam corrupti reiciendis sint officia doloremque voluptates laboriosam? Animi in necessitatibus, reprehenderit nemo atque dolore explicabo suscipit temporibus voluptates eum, quisquam eveniet sit. Saepe?  </p> 
+
+
+    <p> <strong> Soy un parrafo en Negritas </strong></p>
+
+
+<p>Soy un parrafo que usa la etiqueta br <br />    
+    para hacer el salto de linea
+    <b></b> ¨(a "br" la vamos a usar mientras sepamos SOLO HTML) </b>
+</p>
+<!---Enlace de imagen---->
+
+
+<a href="https://code.visualstudio.com/"  target="blank"> soy un enlace </a>
+<br/>
+<p>clickea la imagen</p>
+<a href="https://code.visualstudio.com/"  target="blank"> 
+        
+        <img 
+        src="https://www.fundacionkonex.org/custom/web/data/imagenes/repositorio/2021/03/12/16575/2021031202544061e0e3f25c3041f849de6b510817fb34.jpg"> 
+        alt= "imagen de Lionel Messi" 
+/>
+    </a>
+
+    <hr />
+        <!---sirvo para hacer lineas divisorias, tambien me van a usar mientras solo
+sepan HTM---->
+
+
+<span>soy un span</span>
+<span>soy un span</span>
+<div>soy un div</div>
+<div>soy un div</div>
+
+<hr>/
+
+<h2>listas</h2>
+
+<h3>listas desoredenadas </h3>
+
+<ul>
+    <li>item 1 </li>
+    <li>item 2</li>
+    <li>item 3</li>
+    </ul>
+<h3>lista ordenada</h3>
+
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <h3> listas anidadas </h3>
+<ol>
+
+<li>
+    soy un elemento de una lista ordenada y tengo otra lista dentro desoredenadas:
+</ul>
+<li><a href="">item </a></li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>
+<li>
+</li>
+soy un elemento de una lista ordenada y tengo otra lista dentro ordenada
+<ol>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+</ol>
+</li>
+</ol>
+
+<h2>tablas</h2>
+
+<table>
+    <tr>
+        <th>Lunes</th>
+        <th>martes</th>
+        <th>miercoles</th>
+        <th>jueves</th>
+        <th>viernes</th>
+        <th>sabado</th>
+        <th>domingo</th>
+    </tr>
+<tr>
+    <td>9hrs</td>
+    <td>9hrs</td>
+    <td>9hrs</td>
+    <td>9hrs</td>
+    <td>9hrs</td>
+    <td>9hrs</td>
+    <td>9hrs</td>
+</tr>
+<tr>
+    <td>19hrs</td>
+    <td>19hrs</td>
+    <td>19hrs</td>
+    <td>19hrs</td>
+    <td>19hrs</td>
+    <td>19hrs</td>
+    <td>19hts</td>
+</tr>
+</table>
+
+<hr/>
+
+<h2> Formulario </h2>
+<form>
+
+<label for="nombre">Nombre</label>
+<input type="texto" id="Nombre" placeholder ="ingrese su nombre"
+br/>
+
+<label for="apellido">Apellido</label> 
+<input type="textoe"  id="apellido" placeholder="ingrese su Apellido"
+br>/<br/>
+
+<label for="numbre">edad</label>
+<input type="number"  id="edad" placeholder="Ingrese su edad"
+br>/<br/>
+
+<label for="email">Email</label>
+<input type="email"  id="Email"  placeholder="Ingrese su Email"
+br>/<br/>
+
+<label for="pass">Contraseña</label>
+<input type="password"  id="pass" placeholder="Ingrese Pasword"
+br>/<br/>
+
+<label for="cb1">Ingles</label>
+<input type="checkbox"  id="Cb1">
+<br>
+
+<label for="cb2">France</label>
+<input type="checkbox"  id="Cb2">
+<br>
+
+<div>Gustos de Helados</div>
+
+<input type="radio" id="choco">
+<label for="choco">Chocolate</label>
+<br>
+
+<input type="radio" name="Gustos" id="mg">
+<label for="Mg">Menta Granizada</label>
+<br>
+
+<input type="radio" name="Gustos" id="DDL">
+<label for="DDL">Durazno con Dulce de Leche</label>
+<br>
+
+<div>Jugamos</div>
+<select >
+	<option value="disable seleccion">Selecione una opcion</option>
+	<option value="piedra"  >Piedra</option>
+	<option value="papel" >papel</option>
+	<option value="tijera" >Tijera</option>
+	</select>
+	<br>
+
+	<label for="abs">Observaciones</label><br>
+	<textarea id="obs" rows="3"  maxlength="255"  cols="20" placeholder="observaciones"></textarea>
+	<br>
+
+<button type="submit"> Enviar Formulario</button>
+
+<form>
+
+</body>
+<html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
